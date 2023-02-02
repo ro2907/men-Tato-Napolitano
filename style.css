@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Paytone+One&family=Lato&family=Raleway:wght@400;700;900&display=swap');
+body{
+    background-color: rgb(226, 226, 226);
+    margin: 0;
+}
+.body {
+    background-image: url(./images/fondoHome-rest1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #1c1c1c;
+    width: 100%;
+    max-width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.restaurant-logo {
+    color: #fff;
+    margin: 0;
+    padding: 10px 0;
+    border-top: 4px solid #fa5c01;
+    border-bottom: 4px solid #fa5c01;
+    display: inline-block;
+    font-size: 45px;
+    margin: o auto;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 15px;
+}
+.menu-logo {
+    color: #fa5c01;
+    margin: 0;
+    text-align: center;
+    background-color: #1c1c1c;
+    font-size: 35px;
+    font-family: 'Lobster', cursive;
+    padding: 0 5px;
+    letter-spacing: 3px;
+}
+.contenedor-centrador,
+.contenedor-centrador-menu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.contenedor-centrador-menu {
+    position: relative;
+    top: 120px;
+}
+.description-portada {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    width: 248px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.imagen-portada {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 12px solid #fa5c01;
+    margin-top: 0;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7eDedzxI8L2t-CERaRjIqY_uX8tXeZu42Q&usqp=CAU);
+    background-position: center center;
+    background-size: cover;
+
+}
+.titulo-portada {
+    width: 280px;
+    height: 60px;
+    background-color: #1c1c1c;
+    border-radius: 35px;
+    position: relative;
+   top: -20px;
+   
+}
+.titulo{
+    color: #fa5c01;
+    font-size: 36px;
+    margin: 0;
+    font-family: 'Paytone One', sans-serif;
+    text-align: center;
+}
+.titulo-span {
+    color: #fff0dd;
+    font-family: 'Lobster', cursive;
+}
